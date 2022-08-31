@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=contac, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="./contactUs.css">
+    <link rel="stylesheet" href="./resources/fontawesome-free-6.1.2-web/css/all.css">
+    <script src="./jquery2.js"></script>
+</head>
+<body>
+    <div name="container1" id="container1">
+        <div id="logo">
+            <font size="5"> The MODERNIST</font>
+            <br />
+            <font size="2">shop</font>
+        </div>
+        <div id="navHome" class="navItems">Home </div>
+        <div id="navAbout" class="navItems"> About</div>
+        <div id="navContact" class="navItems"> Contact us </div>
+        <div id="cart" class="navItems">
+            <i class="fa-solid fa-cart-shopping"></i><sub id="sub"></sub>
+            <div id="cartItems"></div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <form id="f1">
+            <label >Name&nbsp;</label>
+            <input type="text" id="name" placeholder="enter your name" class="spc tb">
+            <div id="nameError" class="error"> Invalid name</div><br>
+
+            <label >Email &#160;</label>
+            <input type="mail" id="mail" placeholder="enter your mail" class="spc tb">
+            <div id="mailError" class="error">Invalid email</div><br>
+            
+            <label >phone&#160;</label>
+            <input type="text" id="phone" class="spc tb">
+            <div id="phoneError" class="error">Invalid number</div><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea  id="comments" cols="35" rows="7"></textarea><br>
+            
+            <button id="contact">Contact</button>
+        </form>
+    </div>
+
+
+
+
+    <div id="footer" >
+        <div class="footerContainer">
+
+            <div class="footer">Follow us on social media to get all news</div>
+            <div class="footer footerIcon"><i id="facebook" class="fa-brands fa-facebook-f"></i></div>
+            <div class="footer footerIcon"><i id="instagram" class="fab fa-instagram"></i></div>
+        </div>
+        <div class="footerContainer">
+
+            <div class="footer">Install our app</div>
+            <div class="footer footerIcon"><i id="googlePlay" class="fa-brands fa-google-play"></i></div>
+            <div class="footer footerIcon"><i id="appSrore" class="fa-brands fa-app-store-ios"></i></div>
+        </div>
+    </div>
+
+    <script src="./contactUs.js"></script>
+</body>
+</html>

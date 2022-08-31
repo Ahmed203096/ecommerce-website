@@ -1,0 +1,285 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#container1{
+    margin-top: 0;
+    height: 60px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(27, 0, 0);
+    color: white;
+    vertical-align:middle;
+    align-content: center;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    width: 100vw;
+    
+}
+
+#logo{
+    padding: 2px;
+    margin: auto;
+    margin-top: 5px;
+    display: inline-block;
+    background-color: transparent;
+    width: 14em;
+    height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.navItems{
+    padding: 5px;
+    margin:auto;
+    display: inline-block;
+    background-color: transparent;
+    width: 5.2em;
+    height: 1.5em;
+    border:3px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    text-justify: auto;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#navAbout{
+    background-color: #adadad;
+    color:#1b0000;
+    
+}
+.navItems:hover{ 
+    background-color: #adadad; 
+    color:#1b0000;
+    cursor: pointer;
+}
+
+#footer{
+    margin-top: auto;
+    display: flex;
+    position:relative;
+    width: 100Vw;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b0000;
+}
+.footer{
+    font-size: 1.2em;
+    margin: 20px;
+    color: white;
+    text-shadow: 2px 2px rgb(85, 84, 84);
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#visionContainerM{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height: max-content;
+}
+#visionContainer{
+    position: absolute;
+    top: 20vh;
+    width: 800px;
+    height:266px;
+    align-self: center;
+    margin: auto;
+    display: flex;
+}
+
+#background{
+    width: auto;
+}
+#vision{
+    width: 400px;
+    background-color: rgb(27,0,0,0.8);
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eye{
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+}
+.visionFont{
+    display: block;
+    margin: auto;
+    color: white;
+}
+#visionContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    
+}
+
+#container2{
+    position: absolute;
+    top: 60vh;
+    width: 800px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+}
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.icon{
+    display: block;
+    font-size: 35px;
+    color: rgb(27,0,0);
+    margin: auto;
+}
+.iconText{
+    display: block;
+    font-size: 1em;
+    margin: auto;
+}
+.iconTextM{
+    display: block;
+    font-size: 1.2em;
+    color: rgb(27,0,0);
+    font-weight:bolder;
+    margin: auto;
+}
+.iconCircle{
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(27,0,0);
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#holder{
+    position: relative;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#container3{
+    position: relative;
+    top: 31em;
+    width: 800px;
+    display: flex;
+    border: 2px solid rgb(27,0,0);
+    border-radius: 30px;
+    align-items: center;
+    z-index: 3;
+    align-self: center;
+    margin: auto;
+    height: max-content;
+}
+
+.sec{
+    width: 23em;
+    height: 19em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.list{
+    margin-top: 2em;
+}
+
+.footerIcon:hover{
+    cursor: pointer;
+}
+
+#container4{
+    position: relative;
+    top: 31em;
+    width: 800px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    align-self: center;
+    margin: auto;
+    margin-top: 3em;
+}
+#teamHolderM{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#teamHolder{
+    margin: auto;
+    margin-top: 0;
+    font-size: 5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(27,0,0);
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.teamImage{
+    width: 20em;
+    height: 20em;
+    border: 3px solid rgb(27, 0, 0);
+    border-radius: 20em;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.layer_1{
+    display: block;
+    margin: auto;
+}
+.title{
+    color: #1b0000;
+    font-size: 2.3em;
+}
+.teamDesc{
+    width: 20em;
+    margin: auto;
+    text-align: center;
+}
+.teamHolder2{
+    margin: 2em;
+}
+.img{
+    width:350px;
+    border-radius: 350;
+}

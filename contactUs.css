@@ -1,0 +1,140 @@
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+#container1{
+    margin-top: 0;
+    height: 60px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(27, 0, 0);
+    color: white;
+    vertical-align:middle;
+    align-content: center;
+    position: sticky;
+    top:0;
+    z-index: 5;
+}
+
+#logo{
+    padding: 2px;
+    margin: auto;
+    margin-top: 5px;
+    display: inline-block;
+    background-color: transparent;
+    width: 14em;
+    height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.navItems{
+    padding: 5px;
+    margin:auto;
+    display: inline-block;
+    background-color: transparent;
+    width: 5.2em;
+    height: 1.5em;
+    border:3px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    text-justify: auto;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#navContact{
+    background-color: #adadad;
+    color:#1b0000;
+    
+}
+.navItems:hover{ 
+    background-color: #adadad; 
+    color:1b0000;
+    cursor: pointer;
+}
+
+
+
+.spc{
+    margin: 10px;
+
+}
+.tb{
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.container{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+.showError{
+    display: inline !important;
+}
+.btn{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 15px;
+    font-style:oblique;
+    color: white;
+
+}
+#contact{
+    width: 5vw;
+    background-color: green;
+    border-color:green ;
+    border-radius: 5px;
+    color: white;
+}
+
+#footer{
+    margin: 0;
+    display: flex;
+    position:sticky;
+    top: 95%;
+    width: 100Vw;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b0000;
+}
+.footer{
+    font-size: 1.2em;
+    margin: 20px;
+    color: white;
+    text-shadow: 2px 2px rgb(85, 84, 84);
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.footerIcon:hover{
+    cursor: pointer;
+}
+
